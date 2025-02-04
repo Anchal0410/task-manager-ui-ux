@@ -55,7 +55,7 @@ const Sidebar = ({ onCreateTask }) => {
   const renderMenuItem = (item, index) => (
     <a
       key={index}
-      href={item.link}
+      href="/"
       className="flex items-center gap-3 px-3 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
     >
       <item.icon size={20} />
